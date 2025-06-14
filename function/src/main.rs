@@ -19,7 +19,7 @@ fn add(x: i32, y: i32) -> i32 {
 }
 
 fn change_value(mut x: i32) {
-    x += 10;
+    x += 10; 
     println!("Inside change_value, x is now {}", x);
 }
 
